@@ -117,15 +117,15 @@ Wilcoxon signed-rank tests based on the updated 10-fold cross-validation compare
 | **Model 1 (11f) vs Model 2 (30f)**  | Protected         | 0 (0.0020)\*     | 0 (0.0020)\*     | 18 (0.3750)    | 0 (0.0020)\*     |
 |                                    | Unprotected       | 0 (0.0020)\*     | 0 (0.0020)\*     | 0 (0.0020)\*     | 0 (0.0020)\*     |
 | **Model 2 (30f) vs Model 2-a (25f)**| Protected         | 7.5 (0.2710)   | 17 (0.5147)    | 12 (0.2131)    | 12 (0.2135)    |
-|                                    | Unprotected       | 12 (0.2135)    | 13.5 (0.5281)  | 17 (0.5147)    | 17 (0.5147)    |
+|                                    | Unprotected        | 7.5 (0.2710)   | 12 (0.2135)    | 13.5 (0.5281)  | 17 (0.5147)    |
 | **Model 2 (30f) vs Model 2-b (20f)**| Protected         | 16 (0.4380)    | 21 (0.5566)    | 20 (0.7671)    | 21 (0.5566)    |
-|                                    | Unprotected       | 24 (0.7695)    | 15 (0.6744)    | 19 (0.4316)    | 19 (0.4316)    |
+|                                    | Unprotected       | 16 (0.4380)    | 24 (0.7695)    | 15 (0.6744)    | 19 (0.4316)    |
 | **Model 2 (30f) vs Model 2-c (15f)**| Protected         | 20 (0.4922)    | 27 (1.0000)    | 15 (0.3743)    | 19 (0.4316)    |
-|                                    | Unprotected       | 19 (0.6784)    | 17 (0.8886)    | 26 (0.9219)    | 26 (0.9219)    |
+|                                    | Unprotected       | 20 (0.4922)    | 19 (0.6784)    | 17 (0.8886)    | 26 (0.9219)    |
 | **Model 2 (30f) vs Model 2-d (10f)**| Protected         | 14 (0.1934)    | 18 (0.3750)    | 12 (0.2135)    | 14 (0.1934)    |
-|                                    | Unprotected       | 22 (0.6250)    | 14 (0.5754)    | 16 (0.2754)    | 16 (0.2754)    |
-| **Model 2 (30f) vs Model 2-e (5f)** | Protected         | 12 (0.2357)    | 12 (0.1309)    | 24 (0.7695)    | 17 (0.3223)    |
-|                                    | Unprotected       | 17 (0.5147)    | 11 (0.1055)    | 12 (0.1309)    | 12 (0.1309)    |
+|                                    | Unprotected       | 14 (0.1934)    | 22 (0.6250)    | 14 (0.5754)    | 16 (0.2754)    |
+| **Model 2 (30f) vs Model 2-e (5f)** | Protected         | 12.5 (0.2357)    | 12 (0.1309)    | 24 (0.7695)    | 17 (0.3223)    |
+|                                    | Unprotected       | 12.5 (0.2357)    | 17 (0.5147)    | 11 (0.1055)    | 12 (0.1309)    |
 
 The Wilcoxon signed-rank test showed that `M2` significantly outperformed `M1` with a higher F1-score ($p<0.005$). Therefore, `M2` is a better choice than `M1`. Next, we further compare `M2` and its variants. No significant difference was observed between `M2` and its variants ($p > 0.05$), and therefore, we proposed the most parsimonious form containing five features, `M2-e`.
 
