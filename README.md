@@ -61,13 +61,13 @@ Dr. Carol Strong (carol.chiajung@gmail.com)
 3. **Run baseline models**
 
    ```bash
-   python scripts/various_models.py
+   python various_models.py
    ```
 
 4. **Run CatBoost feature pipelines**
 
    ```bash
-   python scripts/catboost.py
+   python catboost.py
    ```
 
    This:
