@@ -112,7 +112,7 @@ if __name__ == "__main__":
     # Model 2 vs. Model 2-c
     wilcoxon_compare(results_cat, "30f_1_10-fold__1234", "15f_1_10-fold__1234")
     # Model 2 vs. Model 2-d
-    wilcoxon_compare(results_cat, "30f_1_10-fold__1234  ", "10f_1_10-fold__1234")
+    wilcoxon_compare(results_cat, "30f_1_10-fold__1234", "10f_1_10-fold__1234")
     # Model 2 vs. Model 2-e
     wilcoxon_compare(results_cat, "30f_1_10-fold__1234", "5f_1_10-fold__1234")
 
